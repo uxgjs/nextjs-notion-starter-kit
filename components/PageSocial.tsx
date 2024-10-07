@@ -82,10 +82,6 @@ export const PageSocial: React.FC = () => {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <div className={styles.actionBg}>
-            <div className={styles.actionBgPane} />
-          </div>
-
           <div className={styles.actionBg}>{action.icon}</div>
         </a>
       ))}
